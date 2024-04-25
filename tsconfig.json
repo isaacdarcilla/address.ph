@@ -11,6 +11,7 @@
     "experimentalDecorators": true,
     "paths": {
       "@utils/*": ["./src/utils/*"],
+      "@enums/*": ["./src/enums/*"]
     }
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"],

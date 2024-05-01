@@ -5,16 +5,13 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "declaration": true,
+    "declarationDir": "./lib",
     "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "paths": {
-      "@utils/*": ["./src/utils/*"],
-      "@enums/*": ["./src/enums/*"]
-    }
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }

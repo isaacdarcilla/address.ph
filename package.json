@@ -9,8 +9,8 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "bun run lint -- --fix",
-    "build": "bun build ./src/index.ts --minify --splitting --outdir=lib",
-    "build:declaration": "tsc --emitDeclarationOnly --project tsconfig.json",
+    "build": "bun build ./src/index.ts --minify --splitting --outdir=lib && bun run build:declaration",
+    "build:declaration": "tsc lib/**/*.js --declaration --allowJs --emitDeclarationOnly --outDir lib",
     "test": "jest"
   },
   "repository": {

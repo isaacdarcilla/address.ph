@@ -2,6 +2,10 @@
   "name": "address.ph",
   "version": "1.0.0",
   "description": "Unstyled address selection component in the Philippines",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "bun run lint -- --fix",

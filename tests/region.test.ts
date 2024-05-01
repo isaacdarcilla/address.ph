@@ -1,4 +1,4 @@
-import { regions } from "../src";
+import { regions } from "../src/utils/helper";
 
 describe("regions", () => {
 	it("should return an array containing", async () => {

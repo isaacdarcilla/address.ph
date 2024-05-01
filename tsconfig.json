@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "es6",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -14,6 +15,6 @@
       "@enums/*": ["./src/enums/*"]
     }
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
